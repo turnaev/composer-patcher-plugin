@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tvi\\Composer\\": "src/"
+            "Tvi\\Composer\\": "src/Tvi/Composer/"
         }
     },
     "extra": {

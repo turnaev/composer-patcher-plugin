@@ -10,7 +10,7 @@ use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\Script\Event;
 use Composer\Plugin\Capable;
 
-class Plugin implements PluginInterface, EventSubscriberInterface, Capable
+class PluginPatcher implements PluginInterface, EventSubscriberInterface, Capable
 {
     /**
      * @var IOInterface
